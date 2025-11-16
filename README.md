@@ -65,7 +65,6 @@ Clean, visually appealing UI with animations and hover effects.
 
 ## 📦 Installation & Local Development
 
-```bash
 # Clone the repository
 git clone https://github.com/Abhirekha2000/dogs-api-app
 cd dogs-api-app
@@ -117,3 +116,4 @@ Lewis University – Software Architecture & Design
 
 This project is for academic and educational use only.
 Inspired by Brad Schiff’s Dog API tutorial.
+
