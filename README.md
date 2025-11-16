@@ -1,4 +1,8 @@
-# 🐶 Dogs API – React Version  
+# 👩‍💻 Developer
+
+Abhirekha Thimmasani
+Lewis University – Software Architecture & Design
+# 🐶 Dogs API – React Version
 ### A React + Vite project that fetches and displays dog images using the Dog CEO Public API
 
 ---
@@ -36,33 +40,6 @@ The application demonstrates:
 
 ---
 
-## 📂 Features
-### ✔️ Fetch dog breeds dynamically  
-The dropdown list loads all available dog breeds from the API.
-
-### ✔️ View images as a modern slideshow  
-Selected breed images are displayed with smooth fade animation.
-
-### ✔️ Autoplay functionality  
-Automatically cycles through images every 3 seconds.
-
-### ✔️ Play / Pause controls  
-User can start or stop autoplay.
-
-### ✔️ Previous / Next navigation  
-Manual navigation through images.
-
-### ✔️ Loading spinner  
-Displayed while images are being fetched.
-
-### ✔️ Responsive UI  
-Fully optimized for mobile, tablet, and desktop.
-
-### ✔️ Gradient background + modern styling  
-Clean, visually appealing UI with animations and hover effects.
-
----
-
 ## 📦 Installation & Local Development
 
 # Clone the repository
@@ -73,29 +50,31 @@ cd dogs-api-app
 npm install
 
 # Run development server
-npm run dev 
+npm run dev
+
+# App will run at:
+# http://localhost:5173
+
+## 🌐 Deployment (Azure Static Web Apps)
+
+This project is deployed using **Azure Static Web Apps** with automated **GitHub Actions CI/CD**.
+
+### Deployment Steps:
+1. Push project to GitHub  
+2. Create Azure Static Web App  
+3. Connect GitHub repository  
+4. Azure automatically generates a CI/CD workflow  
+5. Every push redeploys the app automatically 🎉
+
 ---
-### The app will run at:
+##📜 License
 
-http://localhost:5173
+This project is for academic and educational use only.
+Inspired by Brad Schiff’s Dog API tutorial.
 
-🌐 Deployment (Azure Static Web Apps)
+## 📁 Project Structure
 
-This project is deployed using Azure Static Web Apps with an automated GitHub Actions workflow.
-
-Deployment Steps:
-
-Push project to GitHub
-
-Create Azure Static Web App
-
-Connect GitHub repository
-
-Azure automatically creates a CI/CD YAML pipeline
-
-Every push redeploys the app automatically 🎉
-
-📁 Project Structure
+```md
 dogs-api-app/
 │── public/
 │── src/
@@ -106,14 +85,4 @@ dogs-api-app/
 │── index.html
 │── package.json
 │── vite.config.js
-
-👩‍💻 Developer
-
-Abhirekha Thimmasani
-Lewis University – Software Architecture & Design
-
-📜 License
-
-This project is for academic and educational use only.
-Inspired by Brad Schiff’s Dog API tutorial.
-
+***
